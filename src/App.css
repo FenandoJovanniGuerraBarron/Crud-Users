@@ -1,0 +1,104 @@
+.App {
+    height: auto;
+    padding: 3em;
+    background-image: url(/public/wave2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.App__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+.App__h1 span {
+    color: #f26250;
+    font-size: 50px;
+    font-weight: bold 700;
+}
+
+.users-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: inherit;
+
+}
+
+.create__user {
+    text-transform: uppercase;
+    background-color: #f26250;
+    padding: .5em 2.5em;
+    border-radius: 6px;
+    color: #fff;
+    border: 1px solid;
+    transition: background-color .3s;
+    font-weight: 300;
+    cursor: pointer;
+    margin-bottom: 5em;
+}
+
+.create__user:hover {
+    color: #f26250;
+    background-color: #fff;
+    transition: background-color .3s;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    backdrop-filter: blur(3px);
+}
+
+.modal--show {
+    opacity: 1;
+    pointer-events: unset;
+}
+
+.modal--hide {
+    opacity: 0;
+}
+
+.modal__container {
+    width: 90%;
+    max-width: 600px;
+    max-height: 90%;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 6px;
+    padding: 3em 1.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    box-shadow: 0 0 10px #0009;
+    position: relative;
+}
+
+@media (min-width:1300px) {
+    .App{
+        height: 100vh;
+        padding: 0;
+        background-image: url(/public/wave2.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-family: 'Nunito', sans-serif;
+    }
+}
+
