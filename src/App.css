@@ -1,6 +1,6 @@
 .App {
     height: 100vh;
-
+    padding: 1.5em 0;
     background-image: url(/public/wave2.jpeg);
     background-repeat: no-repeat;
     background-position: center;
