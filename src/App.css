@@ -1,5 +1,5 @@
 .App {
-    height: auto;
+    height: 100vh;
     padding: 3em;
     background-image: url(/public/wave2.jpeg);
     background-repeat: no-repeat;
@@ -24,12 +24,13 @@
     font-weight: bold 700;
 }
 
-.users-container {
+.users-container{
     display: flex;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
     background: inherit;
+
 
 }
 
@@ -90,7 +91,7 @@
     position: relative;
 }
 
-@media (min-width:1300px) {
+@media (min-width:1200px) {
     .App{
         height: 100vh;
         padding: 0;
@@ -100,5 +101,15 @@
         background-size: cover;
         font-family: 'Nunito', sans-serif;
     }
+
+    .users-container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: inherit;
+    
+    }
+
 }
 
