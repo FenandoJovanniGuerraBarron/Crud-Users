@@ -1,6 +1,6 @@
 .App {
     height: 100vh;
-    padding: 3em;
+
     background-image: url(/public/wave2.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -30,8 +30,6 @@
     justify-content: center;
     flex-wrap: wrap;
     background: inherit;
-
-
 }
 
 .create__user {
@@ -90,26 +88,3 @@
     box-shadow: 0 0 10px #0009;
     position: relative;
 }
-
-@media (min-width:1200px) {
-    .App{
-        height: 100vh;
-        padding: 0;
-        background-image: url(/public/wave2.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        font-family: 'Nunito', sans-serif;
-    }
-
-    .users-container {
-        display: flex;
-        gap: 20px;
-        justify-content: center;
-        flex-wrap: wrap;
-        background: inherit;
-    
-    }
-
-}
-
