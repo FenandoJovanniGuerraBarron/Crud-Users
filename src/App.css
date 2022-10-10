@@ -82,7 +82,6 @@
     border-radius: 6px;
     padding: 3em 1.5em;
     display: grid;
-    gap: 1em;
     place-items: center;
     grid-auto-columns: 100%;
     box-shadow: 0 0 10px #0009;

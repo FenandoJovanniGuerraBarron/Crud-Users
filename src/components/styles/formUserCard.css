@@ -1,10 +1,12 @@
+
+
 .form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: .7em;
-    padding: 3em;
+    padding: 2.5em;
     border-radius: 10px;
     border-bottom: 3px solid #f26250;
     border-right: 3px solid #f26250;
@@ -89,5 +91,19 @@
         border-bottom: 3px solid #f26250;
         border-right: 3px solid #f26250;
         box-shadow: 6px 6px 10px -1px rgba(176, 70, 70, 0.954);
+    }
+    @media (max-height:700px) {
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: .7em;
+            padding: 2em;
+            border-radius: 10px;
+            border-bottom: 3px solid #f26250;
+            border-right: 3px solid #f26250;
+            box-shadow: 6px 6px 10px -1px rgba(176, 70, 70, 0.954);
+        }
     }
 }
