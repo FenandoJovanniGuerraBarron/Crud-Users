@@ -4,7 +4,7 @@ import './App.css'
 import FormUsers from './components/FormUsers'
 import UserCard from './components/UserCard'
 
-const baseURL = 'https://users-crud1.herokuapp.com'
+const baseURL = 'https://users-crud.academlo.tech/'
 
 const defaultValues = {
   email: '',
